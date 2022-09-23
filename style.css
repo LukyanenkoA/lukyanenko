@@ -1,7 +1,7 @@
   .container{
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
     background-color:rgb(101, 6, 84);
   }
   @media screen and (min-width: 800px) {
