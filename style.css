@@ -4,17 +4,6 @@
     flex-direction: row;
     background-color:rgb(101, 6, 84);
   }
-  @media screen and (min-width: 800px) {
-    .container {
-      flex-direction: column;
-    }
-    .item{
-      width: 100%;
-    }
-    .item2{
-      width: 50%;
-    }
-  }
   .item{
     width: 100%;
   }
@@ -111,8 +100,19 @@
     font-style:normal;
     text-align: center;
   }
- 
   #footer{
     background-color:rgb(230, 141, 206);
     margin:auto;
   } 
+
+  @media screen and (min-width: 800px) {
+    .container {
+      flex-direction: column;
+    }
+    .item{
+      width: 100%;
+    }
+    .item2{
+      width: 50%;
+    }
+  }
