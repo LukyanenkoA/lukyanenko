@@ -1,7 +1,7 @@
   .container{
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
     background-color:rgb(101, 6, 84);
   }
  
